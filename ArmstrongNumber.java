@@ -14,9 +14,6 @@ public class ArmstrongNumber {
                 System.out.println(num + " is not an Armstrong number.");
             }
             sc.close();
-        } catch (IOException e) {
-            System.out.println("Error: File not found.");
-            e.printStackTrace();
         } catch (Exception e) {
             System.out.println("An unexpected error occurred.");
             e.printStackTrace();
