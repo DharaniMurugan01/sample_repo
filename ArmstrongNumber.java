@@ -9,7 +9,7 @@ public class ArmstrongNumber {
             Scanner sc = new Scanner(file);
             int num = sc.nextInt();
             if (isArmstrong(num)) {
-                System.out.println(num + " is an Armstrong number.");
+                System.out.println(num + " is an Armstrong number.yaah this is");
             } else {
                 System.out.println(num + " is not an Armstrong number.");
             }
