@@ -3,6 +3,6 @@ public class InfoJenkins {
         String name = System.getenv("NAME");
         int age = Integer.parseInt(System.getenv("AGE"));
         float weight = Float.parseFloat(System.getenv("WEIGHT"));
-        System.out.println("Hello, " + name + "! You are " + age + " years old and weigh " + weight + " kg.");
+        System.out.println("Hello, " + name + "! You are who " + age + " years old and weigh " + weight + " kg.");
     }
 }
