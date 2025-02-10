@@ -25,7 +25,7 @@ public class OddEvencount {
             System.out.println("Even count: " + even);
             sc.close();
         } catch (IOException e) {
-            System.out.println("Error: File not found.");
+            System.out.println("Error: File not found.yes");
             e.printStackTrace();
         } catch (Exception e) {
             System.out.println("An unexpected error occurred.");
