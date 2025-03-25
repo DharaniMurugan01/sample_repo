@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [ExcelDataProviderSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="BingSearchTest(failed)">
+<suite parallel="tests" name="Failed suite [ExcelDataProviderSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="BingSearchTest(failed)" verbose="0">
     <classes>
       <class name="Excelexample.Dataproviderclass">
         <methods>
